@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    
+}
+.box{
+    background-color: rgb(8, 24, 41);
+    height: 70px;
+    width: 100%;
+    color: white;
+    align-content: center;
+    font-size: 30px;
+    
+   
+}
+
+.Main{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+
+.rock {
+    display: flex;
+    justify-content: center;  /* Horizontally centers the image */
+    align-items: center;      /* Vertically centers the image */
+    height: 150px;            /* Set the height of the container */
+    width: 150px;             /* Optional: Set the width of the container */
+    
+}
+
+.rock img {
+    max-width: 100%;          /* Ensures the image scales properly */
+    max-height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4rem;
+}
+.rock img:hover{
+border: 4px solid red ;
+cursor: pointer;
+opacity: 0.5;
+
+}
+
+
+
+
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 100px;
+}
+.user-score,.comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+
+}
+.msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
